@@ -27,6 +27,7 @@
     h2 {
         line-height: 1;
         letter-spacing: 0;
+        @apply text-[30px] md:text-[62px] mb-6.25;
     }
 }
 
@@ -77,5 +78,9 @@
         top: 100%;
         left: 0;
         translate: 0 -100%;
+    }
+
+    .text-description {
+        @apply font-normal text-[16px] leading-8 md:text-[18px] md:leading-8.5 mb-17.5;
     }
 }

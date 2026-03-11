@@ -2,10 +2,10 @@ const Changes = () => {
     return (
         <section>
             <div className='container py-18.75'>
-                <h2 className="text-black text-[30px] md:text-[62px] mb-6.25 md:w-[85%] lg:w-[80%]">
+                <h2 className="text-black md:w-[85%] lg:w-[80%]">
                     Найт-Сити изменит  тебя навсегда!
                 </h2>
-                <div className="text-grey font-normal text-4/8 md:text-4.5/8.5 mb-18.75 md:w-[85%] lg:w-[80%]">
+                <div className="text-grey text-description md:w-[85%] lg:w-[80%]">
                     <p>
                         <span className='text-special font-bold'>Cyberpunk 2077</span> — приключенческая ролевая игра,
                         действие которой происходит в мегаполисе Найт-Сити,
