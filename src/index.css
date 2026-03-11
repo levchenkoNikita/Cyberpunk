@@ -39,7 +39,6 @@
     }
 
     .button {
-        line-height: 2;
         letter-spacing: 0;
         padding-inline: 50px;
         transition-duration: var(--transition-duration);
@@ -81,6 +80,10 @@
     }
 
     .text-description {
-        @apply font-normal text-[16px] leading-8 md:text-[18px] md:leading-8.5 mb-17.5;
+        @apply font-normal text-[16px] leading-8 md:text-[18px] md:leading-8.5 mb-17.5 md:mb-25;
+    }
+
+    .text-description-alt {
+        @apply font-normal text-[16px] leading-8 md:text-[18px] md:leading-8.5;
     }
 }

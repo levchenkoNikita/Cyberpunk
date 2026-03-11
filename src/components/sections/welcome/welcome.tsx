@@ -18,7 +18,7 @@ function Welcome() {
                     <h2 className="text-black text-[30px] md:text-[62px]">
                         Доступно на всех платформах
                     </h2>
-                    <Button>
+                    <Button typeButton="black">
                         Узнать больше
                     </Button>
                 </div>
