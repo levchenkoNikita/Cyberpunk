@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+    --transition-duration: 0.2s;
+    --transition-duration-alt: 0.4s;
+}
+
+@theme {
+    --color-primary-yellow: #F8F200;
+    --color-black: #000;
+    --color-special: #52BEDC;
+    --color-grey: #777777;
+
+    --breakpoint-sm: 30rem;
+    /* mobile-s */
+    --breakpoint-md: 48rem;
+    /* mobile */
+    --breakpoint-lg: 64rem;
+    /* tablet */
+    --breakpoint-xl: 90rem;
+    /* laptop */
+    --breakpoint-2xl: 120rem;
+    /* desktop */
+}
+
+@layer base {
+    h2 {
+        line-height: 1;
+        letter-spacing: 0;
+    }
+}
+
+@layer components {
+    .container {
+        max-width: 1280px !important;
+        width: 100%;
+        @apply mx-auto px-3 md:px-9;
+    }
+
+    .button {
+        line-height: 2;
+        letter-spacing: 0;
+        padding-inline: 50px;
+        transition-duration: var(--transition-duration);
+    }
+
+    .button:hover {
+        border-radius: 12px;
+    }
+
+    .button:hover span {
+        opacity: 0.8;
+    }
+
+    .button--black {
+        color: var(--color-primary-yellow);
+        background-color: var(--color-black);
+    }
+
+    .button--yellow {
+        color: var(--color-black);
+        background-color: var(--color-primary-yellow);
+    }
+}
+
+@layer utilities {
+    .welcome-bg {
+        background: url('/welcome/welcome-bg-desktop.png') center/cover no-repeat;
+    }
+
+    .welcome-block-image {
+        background: url('/welcome/welcome-block-bg.png') center/cover no-repeat;
+    }
+
+    .welcome-block-position {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        translate: 0 -100%;
+    }
+}
