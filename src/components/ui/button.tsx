@@ -10,7 +10,7 @@ const Button = ({ children, typeButton }: ButtonProps) => {
     return (
         <button 
             className={`
-                button font-bold py-5
+                button font-bold py-5 cursor-pointer
                 ${
                     typeButton == "black" 
                     ? "button--black text-[20px] md:text-[24px] leading-5" 

@@ -18,19 +18,19 @@ const Collaboration = () => {
                     <img src="/collaboration/monitor.png" alt="Монитор Hp" className="md:w-full md:h-auto" />
                     <div
                         className="
-                            flex items-center justify-center gap-x-3.5
+                            flex items-center justify-center gap-x-3.5 w-full
                             md:flex-col md:gap-y-6.25
                             lg:flex-row lg:gap-x-6.25
                         "
                     >
-                        <img src="/collaboration/logo-hp.svg" alt="логотип hp" className="w-11 h-11 md:w-20 md:h-20" />
-                        <div className="w-22.5 h-5">
+                        <img src="/collaboration/logo-hp.svg" alt="логотип hp" className="w-11 h-11 md:max-w-20 md:w-full md:h-auto" />
+                        <div className="w-22.5 h-5 md:max-w-22.5 md:w-full md:h-auto">
                             <svg className="w-full h-auto" width="50" height="12" viewBox="0 0 50 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M49.4229 0.412598L0.0895149 10.6534" stroke="black" stroke-width="0.548148" />
                                 <path d="M49.3647 10.8086L0.148007 0.257931" stroke="black" stroke-width="0.548148" />
                             </svg>
                         </div>
-                        <img src="/src/assets/logo.svg" alt="лого киберпанка" className="w-43.75 h-11 md:w-80 md:h-20" />
+                        <img src="/src/assets/logo.svg" alt="лого киберпанка" className="w-43.75 h-11 md:max-w-80 md:w-full md:h-auto " />
                     </div>
                 </div>
                 <div className="md:w-[50%]">

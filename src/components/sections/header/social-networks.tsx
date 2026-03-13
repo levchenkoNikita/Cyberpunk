@@ -8,7 +8,7 @@ import InstagramIcon from '@assets/instagram.svg?react'
 
 function SocialNetworks() {
     return(
-        <ul className='flex items-center gap-x-5 md:gap-x-7 lg:gap-x-10'>
+        <ul className='hidden md:flex items-center gap-x-5 md:gap-x-7 lg:gap-x-10'>
             <li>
                 <YoutubeIcon className='cursor-pointer hover:opacity-[0.8]'/>
             </li>

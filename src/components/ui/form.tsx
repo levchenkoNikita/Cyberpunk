@@ -18,9 +18,10 @@ const Form = ({ className }: FormProps) => {
                         w-full h-30
                         flex items-center justify-center
                         border border-dashed border-grey
+                        cursor-pointer
                     "
                 >
-                    <span className="">
+                    <span className="underline">
                         Прикрепить скриншот
                     </span>
                 </label>
